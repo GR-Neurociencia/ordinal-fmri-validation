@@ -1,0 +1,23 @@
+fRMI-BOLD_arXiv/
+├── config/
+│   └── params.py
+├── src/
+│   ├── __init__.py
+│   ├── embedding.py
+│   ├── metrics.py
+│   ├── reference_systems.py
+│   ├── bold_pipeline.py
+│   └── validation.py
+├── experiments/
+│   └── run_all.py
+├── visualization/
+│   ├── __init__.py
+│   └── plots.py
+├── utils/
+│   ├── __init__.py
+│   └── helpers.py
+├── results/                 (se creará automáticamente)
+├── figures/                 (se creará automáticamente)
+├── requirements.txt
+├── README.md
+└── paper.tex               (artículo para arXiv)
