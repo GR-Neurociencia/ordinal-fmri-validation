@@ -1,0 +1,4 @@
+Pipeline,Sujetos,Total_ROIs,wPE_DMN_media,wPE_Visual_media,d_Cohen_wPE,PE_DMN_media,PE_Visual_media,d_Cohen_PE,Corr_wPE_std_raw,Corr_PE_std_raw
+filt_global,285,25650,0.95327,0.95145,0.08196,0.97571,0.97476,0.08247,0.04930,0.07007
+filt_noglobal,285,25650,0.95050,0.94678,0.15485,0.97470,0.97337,0.10635,0.01944,0.05446
+nofilt_noglobal,284,25560,0.96899,0.96728,0.11202,0.98287,0.98227,0.08173,-0.02058,0.04099
