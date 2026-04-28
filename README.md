@@ -1,15 +1,22 @@
-# Ordinal BOLD: Validation of PE and wPE for fMRI
+# BOLD ordinal: Validación de PE y wPE para fMRI
 
-This repository contains the complete reproducible code for the paper:
+Este repositorio contiene el código reproducible del artículo:
 
-**"Computational Validation of Permutation Entropy (PE) and Weighted Permutation Entropy (wPE) as Robust Ordinal Metrics for BOLD-fMRI Signal Analysis"**  
-*Gonzalo Ramos*
+**"From Synthetic BOLD to Resting-State fMRI: A Comprehensive Validation of Weighted Permutation Entropy for Characterizing Cortical Complexity"**  
+Gonzalo Ramos
 
-## Reproducibility
-- Fixed random seed = 42.
-- All results are saved as JSON and pickle files.
+---
 
-## How to run
-```bash
-pip install -r requirements.txt
-python experiments/run_all.py
+## 🧠 Descripción
+
+Este trabajo valida el uso de métricas ordinales —Permutation Entropy (PE) y Weighted Permutation Entropy (wPE)— en dos niveles:
+
+1. **Validación computacional (synthetic BOLD)**  
+   Evaluación en sistemas dinámicos controlados con simulación realista de señal BOLD.
+
+2. **Validación empírica (ABIDE I dataset)**  
+   Aplicación a datos reales de resting-state fMRI (284 sujetos) para detectar gradientes de complejidad cortical.
+
+---
+
+## 📁 Estructura del repositorio
